@@ -15,7 +15,7 @@ while read -r number; do
             if ((number % i == 0)); then
                 factor1=$i
                 factor2=$((number / i))
-                factors="$factor1*$factor2"
+                factors="$factor2*$factor1"
                 break
             fi
         done
